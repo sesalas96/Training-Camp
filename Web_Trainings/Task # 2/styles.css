@@ -1,0 +1,211 @@
+* {box-sizing: border-box;}
+
+header { align-content: center;}
+body { background-color: #9157a8;}
+
+p {
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-size: 14.7px;
+    word-spacing: 5px;
+    letter-spacing: .5px ;
+
+}
+
+button {
+    float: right;
+    background-color: black;
+    border-color: black;
+    font-size: 24px;
+    border-radius: 29px;
+    width: 170px;
+    height: 45px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+ul {
+    margin-left: -16px;
+}
+
+h1 {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+    padding-top: 10px;
+}
+
+h2 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+img {
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+}
+
+.line {
+    margin-top: -10px;
+    padding-bottom: 0;
+    margin-bottom: 17px;
+    width: auto;
+ }
+
+.grid {
+    display: grid;
+    grid-template-columns: 350px;
+    width: auto;
+    height: auto;
+    background-color: #d3d3d3; 
+    box-sizing: border-box;
+}
+
+.columna-individual {
+    background-color: orange;
+    border-radius: 20%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body { background-color: #4341df;}
+    h1 { font-size: 40px;}
+    .grid{
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+    .columna-individual {
+        width: 350px;
+        float: left;
+        padding: 30px;
+        min-width: 350px;
+        margin-bottom: 20px;
+        height: 27rem;
+    }
+
+    .columna-individual .contenedor-subcolumnas-der {
+        width: 100%;
+        float: right;
+        align-content: right;
+        padding-top: -30px;
+    }
+
+    .columna-individual .contenedor-subcolumnas-der button {
+        margin-right: 60px ;
+    }
+
+    .columna-individual .contenedor-subcolumnas-izq .money {
+        font-size: 20px;
+    }
+
+    .columna-individual .contenedor-subcolumnas-izq div img {
+        margin-left: 60px;
+    }
+
+    .columna-individual .contenedor-subcolumnas-izq {
+        width: 100%;
+        float: right;
+        align-content: right;
+        padding-top: -30px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body { background-color: #44b2ce;}
+    h1 { font-size: 50px;}
+    p {
+        font-size: 13px;
+        margin-bottom: 24px;
+    }
+    .grid{
+        grid-template-columns: repeat(auto-fill, 70px);
+    }
+    .columna-individual {
+        width: 400px;
+        float: left;
+        padding: 30px;
+        margin: 20px;
+        height: 19rem;
+    }
+
+    .columna-individual .contenedor-subcolumnas-der {
+        width: 43%;
+        float: right;
+        align-content: right;
+        padding-top: -30px;
+    }
+
+    .columna-individual .contenedor-subcolumnas-izq .money {
+        width: 80%;
+        font-size: 14px;
+        word-spacing: -.5px;
+    }
+
+    .columna-individual .contenedor-subcolumnas-izq div img {
+        margin-top: 2px;
+    }
+
+    .columna-individual .contenedor-subcolumnas-der button {
+        margin-top: 0px ;
+        margin-right: 0px;
+    }
+
+    .columna-individual .contenedor-subcolumnas-izq {
+        width: 30%;
+        float: left;
+        align-content: right;
+        padding-top: -30px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body { background-color: #9157a8;}
+    h1 { font-size: 60px;}
+    p {
+        font-size: 17px;
+        margin-bottom: 24px;
+    }
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .columna-individual {
+        width: 500px;
+        float: left;
+        padding: 30px;
+        margin: 20px;
+        height: 19rem;
+    }
+    .columna-individual .contenedor-subcolumnas-izq {
+        width:40%;
+    }
+    .columna-individual .contenedor-subcolumnas-der {
+        width: 55%;
+        float: right;
+        align-content: right;
+        padding-top: -30px;
+    }
+    .columna-individual .contenedor-subcolumnas-der button {
+        margin-top: 0px ;
+        margin-right: 20px;
+    }
+    .columna-individual .contenedor-subcolumnas-izq .money {
+        width: 80%;
+        font-size: 17px;
+        word-spacing: -.5px;
+    }
+    
+}
+
