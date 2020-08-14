@@ -1,0 +1,89 @@
+header{ align-content: center;}
+
+p {
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20.5px;
+    word-spacing: 5px;
+    letter-spacing: .5px ;
+
+}
+
+button{
+    float: right;
+    background-color: black;
+    border-color: black;
+    font-size: 28px;
+    border-radius: 29px;
+    width: 320px;
+    height: 55px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+h1{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+img{
+    margin-top: 6px;
+    margin-bottom: 22px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+}
+
+.line{
+    margin-top: -10px;
+    padding-bottom: 0;
+    margin-bottom: 17px;
+    width: auto;
+ }
+
+.contenedor-columnas{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.columna-individual{
+    width: 33.333%;
+    float: left;
+    padding: 45px;
+    box-sizing: border-box;
+}
+
+.contenedor-subcolumnas-izq{
+    width: 35%;
+    float: left;
+}
+.contenedor-subcolumnas-der{
+    width: 65%;
+    float: right;
+    align-content: right;
+    padding-top: -30px;
+}
+.money{
+    font-size: 19px;
+    word-spacing: 2px;
+}
+
+.requirements{
+    width: 100%;
+    margin-left: 48px;
+    margin-bottom: 40px;
+}
