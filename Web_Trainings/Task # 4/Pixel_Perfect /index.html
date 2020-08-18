@@ -3,39 +3,160 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="css/main1.css">
     <title>Assignation # 4</title>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
   </head>
-  <body>
-    <section>
+  <body class="main">
     <!-- Segmento navegador -->
-      <nav class="bloque_nav">
-        <ul>
-          <li class="bloque_nav--logo">
-            <img src="/Applications/MAMP/htdocs/akurey/Training Camp/Web_Trainings/Task # 4/Pixel_Perfect/img/logo.svg">
+    <header class="container1">
+      <img class="container1__img container1__img--space-right" src="./img/logo.png">
+      <nav>
+        <ul class="container1__links">
+          <li class="container1__links--item-directory">
+            <a href="#">Directorio de Agentes</a>
           </li>
-          <li class="bloque_nav--menu-icono"></li>
-          <li class="bloque_nav--menu-directorio"></li>
-          <li class="bloque_nav--menu-contacto"></li>
-          <li class="bloque_nav--menu-ingreso"></li>
+          <li class="container1__links--item-contact">
+            <a href="#">Contacto</a>
+          </li>
+          <li class="container1__links--item-sign-in">
+            <a href="#">Contacto</a>
+          </li>
         </ul>
       </nav>
-    </section>
-      
+      <div>
+        <img class="container1__menu" src="img/menu.png">
+      </div>
+    </header>
     <!-- Segmento banner y buscador -->
-    <section class="bloque_1">
-      <ul>
-        <img src="" alt="">
-        
-      </ul>
+    <section class="block-1">
+      <div>
+        <img class="block-1__img--mobile"  src="img/banner-mobile.png">
+        <img class="block-1__img--otros"  src="img/banner.png">
+        <h1 class="block-1__title--adjust">Los Mejores agentes de seguridad</h1>
+        <form class="block-1__searchbox">
+          <input class="block-1__searchbox--text" type="text"  placeholder="Buscar por Ubicación">
+          <a href="#"><i class="fas fa-search"></i></a>
+        </form>
+      </div>
     </section>
     <!-- Segento cuadros informativos -->
-    <section class="bloque_2">
-
+    <section class="grid">
+      <ul class="grid__columns">
+        <li class="grid__column">
+          <div class="subgrid">
+            <ul class="subgrid__adjust">
+              <li class="subgrid__title">Chuck Norris Bodyguards</li>
+              <li class="subgrid__certified"><img src="img/certified.png"></li>
+            </ul>
+          </div>
+          <hr class="grid__line">
+          <div class="subgrid-2">
+            <ul class="subgrid-2__adjust">
+              <li class="subgrid-2__subcolumn-left">
+                <img class="subgrid-2__image" src="img/chuck.png">
+                <p class="subgrid-2__rate"><b>Desde: $15 / 12 horas</b></p>
+              </li>
+              <li class="subgrid-2__subcolumn-right">
+                <p class="subgrid-2__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing 
+                  elit. Fusce eleifend vel enim ac lacinia. Phasellus 
+                  ac nisl id velit tristique accumsan nec at enim. 
+                  Etiam posuere tellus ut ligula feugiat auctor. Morbi 
+                  ut quam aliquet, viverra purus in, convallis ante.
+                </p>
+                <button class="subgrid-2__button">Contratar</button>
+              </li>
+            </ul>
+          <div >
+        </li>    
+        <li class="grid__column grid__column--color grid__column--height">
+          <div class="subgrid">
+            <ul class="subgrid__adjust">
+              <li class="subgrid__title">Chuck Norris Bodyguards</li>
+              <li class="subgrid__certified"><img src="img/certified.png"></li>
+            </ul>
+          </div>
+          <hr class="grid__line">
+          <div class="subgrid-2">
+            <ul class="subgrid-2__adjust">
+              <li class="subgrid-2__subcolumn-left">
+                <img class="subgrid-2__image" src="img/chuck.png"  border="1" >
+                <p class="subgrid-2__rate"><b>Desde: $15 / 12 horas</b></p>
+              </li>
+              <li class="subgrid-2__subcolumn-right">
+                <p class="subgrid-2__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing 
+                  elit. Fusce eleifend vel enim ac lacinia. Phasellus 
+                  ac nisl id velit tristique accumsan nec at enim. 
+                  Etiam posuere tellus ut ligula feugiat auctor. Morbi 
+                  ut quam aliquet, viverra purus in, convallis ante.
+                </p>
+                <button class="subgrid-2__button">Contratar</button>
+              </li>
+            </ul>
+          <div >
+        </li> 
+        <li class="grid__column grid__column--color grid__column--height">
+          <div class="subgrid">
+            <ul class="subgrid__adjust">
+              <li class="subgrid__title">Chuck Norris Bodyguards</li>
+              <li class="subgrid__certified"><img src="img/certified.png"></li>
+            </ul>
+          </div>
+          <hr class="grid__line">
+          <div class="subgrid-2">
+            <ul class="subgrid-2__adjust">
+              <li class="subgrid-2__subcolumn-left">
+                <img class="subgrid-2__image" src="img/chuck.png">
+                <p class="subgrid-2__rate"><b>Desde: $15 / 12 horas</b></p>
+              </li>
+              <li class="subgrid-2__subcolumn-right">
+                <p class="subgrid-2__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing 
+                  elit. Fusce eleifend vel enim ac lacinia. Phasellus 
+                  ac nisl id velit tristique accumsan nec at enim. 
+                  Etiam posuere tellus ut ligula feugiat auctor. Morbi 
+                  ut quam aliquet, viverra purus in, convallis ante.
+                </p>
+                <button class="subgrid-2__button">Contratar</button>
+              </li>
+            </ul>
+          <div >
+        </li> 
+        <li class="grid__column grid__column--color grid__column--height">
+          <div class="subgrid">
+            <ul class="subgrid__adjust">
+              <li class="subgrid__title">Chuck Norris Bodyguards</li>
+              <li class="subgrid__certified"><img src="img/certified.png"></li>
+            </ul>
+          </div>
+          <hr class="grid__line">
+          <div class="subgrid-2">
+            <ul class="subgrid-2__adjust">
+              <li class="subgrid-2__subcolumn-left">
+                <img class="subgrid-2__image" src="img/chuck.png">
+                <p class="subgrid-2__rate"><b>Desde: $15 / 12 horas</b></p>
+              </li>
+              <li class="subgrid-2__subcolumn-right">
+                <p class="subgrid-2__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing 
+                  elit. Fusce eleifend vel enim ac lacinia. Phasellus 
+                  ac nisl id velit tristique accumsan nec at enim. 
+                  Etiam posuere tellus ut ligula feugiat auctor. Morbi 
+                  ut quam aliquet, viverra purus in, convallis ante.
+                </p>
+                <button class="subgrid-2__button">Contratar</button>
+              </li>
+            </ul>
+          <div >
+        </li> 
+      </ul>
     </section>
     <!-- Segmento foooter -->
-    <footer class="bloque_footer">
-
+    <footer class="flex-footer flex-footer--size">
+      <p class="flex-footer__copyright">Desarrollado por Akurey.com | Todos los derechos reservados.</p>
+      <a class="flex-footer__terms">Términos y Condiciones</a>
     </footer>
   </body>
 </html>
